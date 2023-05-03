@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*цвет основного шрифта (не черный!)*/
 * {
   box-sizing: border-box;
@@ -21,4 +22,62 @@ a {
 h1{
     font-family: $font3;
 }
-*//*# sourceMappingURL=style.css.map */
+*/
+/*# sourceMappingURL=style.css.map */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.flex-item {
+  width: 344px;
+  height: 193px;
+  left: 100px;
+  top: 2192px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  margin-right: 104px;
+  padding: 20px;
+}
+
+.flex-item:last-child {
+  margin-right: 0;
+}
+
+.text-description {
+  width: 178px;
+  height: 48px;
+  left: 183px;
+  top: 2398px;
+  color: #2F2E2E;
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.flex-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
