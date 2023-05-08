@@ -120,6 +120,7 @@ h1{
 .container {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
   align-items: center;
   padding: 20px;
 }
@@ -173,4 +174,27 @@ h1{
   width: 100%;
   height: auto;
   margin-bottom: 10px;
+}
+
+.footer {
+  max-height: 369px;
+  background-color: #2E2F32;
+  display: flex;
+  margin: 0px auto;
+  color: #FAFAFA;
+  padding: 47px 99px 44px 99px;
+}
+.footer a {
+  color: #FAFAFA;
+}
+.footer .block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footer .block_1 .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
