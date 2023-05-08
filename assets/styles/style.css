@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*цвет основного шрифта (не черный!)*/
 * {
   box-sizing: border-box;
@@ -12,22 +11,31 @@ body {
   height: 100%;
 }
 
+main {
+  flex: 1 0 auto;
+}
+
 a {
   text-decoration: none;
 }
 
 /*
-Пример использования переменнной
+Пример использования переменной
 
 h1{
     font-family: $font3;
 }
 */
-.header {
+.wrapper {
+  min-height: 100%;
   display: flex;
   flex-direction: column;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+}
 .header .header__nav {
   min-height: 188px;
   display: flex;
@@ -36,7 +44,6 @@ h1{
   margin-left: 6.5%;
   margin-right: 6.5%;
 }
-
 .header .header__nav .header__nav-logo {
   font-family: "Barlow", sans-serif;
   font-size: 2.625vw;
@@ -44,14 +51,12 @@ h1{
   line-height: 50px;
   color: #2F2E2E;
 }
-
 .header .header__nav .header__nav-list {
   min-width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .header .header__nav .header__nav-list .header__nav-item {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -60,11 +65,9 @@ h1{
   line-height: 24px;
   color: #2F2E2E;
 }
-
 .header .header__nav .header__nav-list .nav-item1 {
   font-weight: 700;
 }
-
 .header .header__nav .header__nav-list .header__nav-btn {
   width: 1.562vw;
   height: 1.344vw;
@@ -74,7 +77,6 @@ h1{
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 .header .header__cover {
   min-height: 739px;
   background-image: url(../images/pexels-expect-best-3237801.jpg);
@@ -84,7 +86,6 @@ h1{
   display: flex;
   align-items: center;
 }
-
 .header .header__cover .header__cover-text {
   color: #2F2E2E;
   width: 50%;
@@ -95,14 +96,12 @@ h1{
   justify-content: center;
   align-content: center;
 }
-
 .header .header__cover .header__cover-text .header__cover-title {
   font-family: "Playfair Display", serif;
   font-size: 3.187vw;
   line-height: 60px;
   font-weight: 600;
 }
-
 .header .header__cover .header__cover-text .header__cover-comment {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -110,7 +109,6 @@ h1{
   font-size: 2vw;
   line-height: 39px;
 }
-
 .header .header__cover .header__cover-switch {
   width: 11%;
   height: 4%;
@@ -118,13 +116,11 @@ h1{
   display: flex;
   justify-content: space-around;
 }
-
 .header .header__cover .header__cover-switch .btn-left {
   width: 14%;
   height: 92%;
   background-image: url(../images/arrow-left.svg);
 }
-
 .header .header__cover .header__cover-switch .btn-right {
   width: 14%;
   height: 92%;
@@ -234,4 +230,25 @@ h1{
   font-size: 16px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.footer {
+  max-height: 369px;
+  background-color: #2E2F32;
+  display: flex;
+  margin: auto;
+  color: #FAFAFA;
+  padding: 47px 99px 44px 99px;
+}
+.footer a {
+  color: #FAFAFA;
+}
+.footer .block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footer .block_1 .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */

@@ -7,7 +7,11 @@ h1{
     font-family: $font3;
 }
 */
-
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -219,3 +223,27 @@ h1{
     justify-content: center;
     font-size: 16px;
 }
+.footer {
+  max-height: 369px;
+  background-color: #2E2F32;
+    display: flex;
+  margin: auto;
+    color: #FAFAFA;
+    padding: 47px 99px 44px 99px;
+  a {
+    color: #FAFAFA;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .block_1 {
+    .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 25px;
+    }
+  }
+  }
