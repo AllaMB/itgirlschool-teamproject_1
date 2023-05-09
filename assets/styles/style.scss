@@ -8,10 +8,11 @@ h1{
 }
 */
 .wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
 .header {
     display: flex;
     flex-direction: column;
@@ -223,27 +224,110 @@ h1{
     justify-content: center;
     font-size: 16px;
 }
+
 .footer {
-  max-height: 369px;
-  background-color: #2E2F32;
+    max-height: 369px;
+    background-color: #2E2F32;
     display: flex;
-  margin: auto;
+    margin: auto;
     color: #FAFAFA;
     padding: 47px 99px 44px 99px;
-  a {
-    color: #FAFAFA;
-  }
-  .block {
+
+    a {
+        color: #FAFAFA;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .block_1 {
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #fff;
+            font-size: 25px;
+        }
+    }
+}
+
+/* --------------------------Section testimonial-----------------------------*/
+.testimonial__container {
+    max-width: 86.11vw;
+    margin: 0 auto;
+}
+
+.testimonial__row {
+    display: flex;
+    margin-top: 4.875rem;
+}
+
+.testimonial__column {
+    flex: 0 0 50%;
+    display: flex;
+}
+
+.testimonial__info {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .block_1 {
-    .social-icons a {
-  display: inline-block;
-  margin: 0 10px;
-  color: #fff;
-  font-size: 25px;
-    }
-  }
-  }
+}
+
+.testimonial__info:first-child {
+    margin-left: 1.8125rem;
+}
+
+.testimonial__info:last-child {
+    margin-left: 1.3125rem;
+}
+
+.testimonial__subtitle {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-family: "Playfair Display", serif;
+    font-size: 51px;
+    line-height: 60px;
+}
+
+.testimonial__full-name {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2F2E2E;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.testimonial__text {
+    font-family: "Playfair Display", serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2F2E2E;
+    width: 19.1875rem;
+}
+
+.testimonial__dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5.5rem;
+    padding-bottom: 4.125rem;
+}
+
+.testimonial__dot {
+    background-color: #E9E9E9;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 1.25rem;
+}
+
+.testimonial__dot:first-child {
+    background-color: #C4C4C4;
+    margin-left: 0;
+}
