@@ -1,12 +1,5 @@
 @import './general';
 
-/*
-Пример использования переменной
-
-h1{
-    font-family: $font3;
-}
-*/
 .wrapper {
     min-height: 100%;
     display: flex;
@@ -127,11 +120,10 @@ h1{
 }
 
 .projects-title {
-    position: absolute;
+    position: relative;
     width: 307px;
     height: 68px;
     left: 100px;
-    top: 2053px;
     font-size: 51px;
     line-height: 60px;
 }
@@ -225,34 +217,6 @@ h1{
     font-size: 16px;
 }
 
-.footer {
-    max-height: 369px;
-    background-color: #2E2F32;
-    display: flex;
-    margin: auto;
-    color: #FAFAFA;
-    padding: 47px 99px 44px 99px;
-
-    a {
-        color: #FAFAFA;
-    }
-
-    .block {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .block_1 {
-        .social-icons a {
-            display: inline-block;
-            margin: 0 10px;
-            color: #fff;
-            font-size: 25px;
-        }
-    }
-}
-
 /* --------------------------Section testimonial-----------------------------*/
 .testimonial__container {
     max-width: 86.11vw;
@@ -330,4 +294,32 @@ h1{
 .testimonial__dot:first-child {
     background-color: #C4C4C4;
     margin-left: 0;
+}
+
+.footer {
+  max-height: 369px;
+  background-color: #2E2F32;
+  display: flex;
+  margin: auto;
+  color: #FAFAFA;
+  padding: 47px 99px 44px 99px;
+
+  a {
+      color: #FAFAFA;
+  }
+
+  .block {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+
+  .block_1 {
+      .social-icons a {
+          display: inline-block;
+          margin: 0 10px;
+          color: #fff;
+          font-size: 25px;
+      }
+  }
 }
