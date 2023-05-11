@@ -38,3 +38,11 @@ h6 {
     font-size: 100%;
     font: inherit;
 }
+
+.subtitle {
+    font-family: $font3;
+    font-size: 51px;
+    line-height: 60px;
+    font-weight: 800;
+    color: $color-txt;
+}

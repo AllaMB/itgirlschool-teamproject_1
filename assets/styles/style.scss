@@ -14,7 +14,7 @@
 
     .header__nav-logo {
       font-family: $font1;
-      font-size: 2.625vw;
+      font-size: 42px;
       font-weight: 600;
       line-height: 50px;
       color: $color-txt;
@@ -79,10 +79,6 @@
         row-gap: 0.625vw;
 
         .header__cover-title {
-          font-family: $font3;
-          font-size: 3.187vw;
-          line-height: 3.75vw;
-          font-weight: 600;
           margin-left: 15%;
           margin-right: 15%;
         }
@@ -144,17 +140,6 @@
   margin-right: 6.9%;
   margin-left: 6.9%;
   min-height: 160px;
-}
-
-.projects__title {
-  font-family: "Playfair Display";
-  font-style: Black Roman;
-  font-size: 51px;
-  line-height: 100%;
-  font-weight: bold;
-  text-align: left;
-  fill: Solid;
-  color: #2F2E2E;
 }
 
 .projects__nav {
@@ -263,13 +248,6 @@
 .testimonial__subtitle {
   text-align: center;
   color: #000000;
-  font-weight: bold;
-}
-
-.subtitle {
-  font-family: "Playfair Display", serif;
-  font-size: 51px;
-  line-height: 60px;
 }
 
 .testimonial__full-name {
@@ -317,7 +295,7 @@
     display: flex;
     justify-content: space-between;
     color: #FAFAFA;
-    padding: 0px 99px 0px 99px;
+    padding: 47px 99px 47px 99px;
   
     a {
       color: #FAFAFA;
@@ -360,10 +338,10 @@
       max-width: 201px;
   
       .footer__title-2 {
-        @include title-styles
+        @include title-styles;
       }
   
-      .footer__block-articles__links {
+      .footer__block-articles-links {
         display: flex;
         flex-direction: column;
         margin-top: 18px;
@@ -387,17 +365,20 @@
       max-width: 65px;
   
       .footer__title-3 {
-        @include title-styles
+        @include title-styles;
       }
   
       .footer__block-links-nav {
         margin-top: 18px;
+        display: flex;
+        flex-direction: column;
   
         a {
           font-family: $font2;
           font-weight: 400;
           font-size: 17px;
           line-height: 21px;
+          padding-bottom: 7px;
         }
       }
     }
@@ -410,38 +391,10 @@
     }
   
     .footer__title-4 {
-      @include title-styles
+      @include title-styles;
     }
   
     .footer__location-img {
       margin-top: 18px;
     }
   }
-
-.footer {
-  max-height: 369px;
-  background-color: #2E2F32;
-  display: flex;
-  margin: auto;
-  color: #FAFAFA;
-  padding: 47px 99px 44px 99px;
-
-  a {
-    color: #FAFAFA;
-  }
-
-  .block {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .block_1 {
-    .social-icons a {
-      display: inline-block;
-      margin: 0 10px;
-      color: #fff;
-      font-size: 25px;
-    }
-  }
-}
