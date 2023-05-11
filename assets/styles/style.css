@@ -230,26 +230,107 @@ h6 {
 }
 
 .footer {
+  width: 100%;
   max-height: 369px;
   background-color: #2E2F32;
   display: flex;
-  margin: auto;
+  justify-content: space-between;
   color: #FAFAFA;
-  padding: 47px 99px 44px 99px;
+  padding: 0px 99px 0px 99px;
 }
 .footer a {
   color: #FAFAFA;
 }
-.footer .block {
+.footer .footer__block-about {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 287px;
 }
-.footer .block_1 .social-icons a {
-  display: inline-block;
-  margin: 0 10px;
-  color: #fff;
-  font-size: 25px;
+.footer .footer__block-about .footer__title-1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+}
+.footer .footer__block-about .footer__text {
+  margin-top: 7px;
+  margin-bottom: 45px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+}
+.footer .footer__block-about .social-icons {
+  max-width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer__block-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 201px;
+}
+.footer .footer__block-articles .footer__title-2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+.footer .footer__block-articles .footer__block-articles__links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+  max-width: 201px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+.footer .footer__block-articles .footer__block-articles__links a {
+  padding-bottom: 22px;
+}
+.footer .footer__block-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 65px;
+}
+.footer .footer__block-links .footer__title-3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+.footer .footer__block-links .footer__block-links-nav {
+  margin-top: 18px;
+}
+.footer .footer__block-links .footer__block-links-nav a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+.footer .footer__block-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 295px;
+}
+.footer .footer__title-4 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29.05px;
+}
+.footer .footer__location-img {
+  margin-top: 18px;
 }
 
 /* --------------------------Section testimonial-----------------------------*/
