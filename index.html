@@ -1,212 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ArchiWeb</title>
-    <link rel="stylesheet" href="assets/styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@200;400;600;700;900&family=Playfair+Display:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-  </head>
 
-  <body>
-      <header class="header">
-        <nav class="header__nav">
-          <p class="header__nav-logo" id="top">ArchiWeb</p>
-          <div class="header__nav-list">
-            <a class="header__nav-item" href="#top">Home</a>
-            <a class="header__nav-item" href="#projects">Projects</a>
-            <a class="header__nav-item" href="#about">About</a>
-            <a class="header__nav-item" href="#contact">Contact</a>
-            <button class="header__nav-btn"></button>
-          </div>
-        </nav>
-        <div class="header__cover">
-          <div class="header__cover-background"></div>
-          <div class="header__cover-text-wrapper">
-            <div class="header__cover-text">
-              <h1 class="header__cover-title">Best Solution For Your Home</h1>
-              <p class="header__cover-comment">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet
-              </p>
-            </div>
-          </div>
-          <div class="header__cover-switch-wrapper">
-            <div class="header__cover-switch">
-              <button class="header__cover-btn btn-left"></button>
-              <button class="header__cover-btn btn-right"></button>
-            </div>
-          </div>
-        </div>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArchiWeb</title>
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@200;400;600;700;900&family=Playfair+Display:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
 
-      <main>
-        <section></section>
-        <section id="about"></section>
-        <section class="projects" id="projects">
-          <div class="projects__nav-wrapper">
-            <h2 class="projects__title">Our Projects</h2>
-            <nav class="projects__nav">
-              <a class="projects__nav-item" href="#">All</a>
-              <a class="projects__nav-item" href="#">Furniture</a>
-              <a class="projects__nav-item" href="#">Design</a>
-              <a class="projects__nav-item" href="#">House</a>
-            </nav>
-          </div>
-          <div class="flex-row">
-            <div class="flex-item-1">
-              <img
-                src="/assets/images/douglas-sheppard-9ryfg8swrvo-unsplash.jpg"
-                alt="House-1-pic"
-              />
-              <div class="text-description">
-                Our Services Line one<br />Servive line two
-              </div>
-            </div>
-            <div class="flex-item-2">
-              <img
-                src="/assets/images/webaliser-_TPTXZd9mOo-unsplash.jpg"
-                alt="House-2-pic"
-              />
-              <div class="text-description">
-                Our Services Line one<br />Servive line two
-              </div>
-            </div>
-            <div class="flex-item-3">
-              <img
-                src="/assets/images/brian-babb-XbwHrt87mQ0-unsplash.jpg"
-                alt="House-3-pic"
-              />
-              <div class="text-description">
-                Our Services Line one<br />Servive line two
-              </div>
-            </div>
-          </div>
-          <div class="flex-row">
-            <div class="flex-item-1">
-              <img
-                src="/assets/images/spacejoy-KSfe2Z4REEM-unsplash.jpg"
-                alt="House-4-pic"
-              />
-              <div class="text-description">
-                Our Services Line one<br />Servive line two
-              </div>
-            </div>
-            <div class="flex-item-2">
-              <img
-                src="/assets/images/ralph-ravi-kayden-JDBVXignFdA-unsplash.jpg"
-                alt="House-5-pic"
-              />
-              <div class="text-description">
-                Our Services Line one<br />Servive line two
-              </div>
-            </div>
-            <div class="flex-item-3">
-              <img
-                src="/assets/images/jonathan-borba-brXCnh_dXWU-unsplash.jpg"
-                alt="House-6-pic"
-              />
-              <div class="text-description">
-                Our Services Line one<br />Servive line two
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="testimonial">
-          <div class="testimonial__container">
-            <div class="testimonial__subtitle subtitle">
-              <h2>Testimonial</h2>
-            </div>
-            <div class="testimonial__row">
-              <div class="testimonial__column">
-                <div class="testimonial__icon">
-                  <img src="/assets/images/ellipse-9.svg" alt="icon" />
-                </div>
-                <div class="testimonial__info">
-                  <div class="testimonial__full-name">
-                    James Passaquindici Arcand
-                  </div>
-                  <div class="testimonial__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                    aliquam, purus sit amet luctus venenatis
-                  </div>
-                </div>
-              </div>
-              <div class="testimonial__column">
-                <div class="testimonial__icon">
-                  <img src="/assets/images/ellipse-10.svg" alt="icon" />
-                </div>
-                <div class="testimonial__info">
-                  <div class="testimonial__full-name">Abram Schleifer</div>
-                  <div class="testimonial__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                    aliquam, purus sit amet luctus venenatis
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="testimonial__dots">
-              <div class="testimonial__dot"></div>
-              <div class="testimonial__dot"></div>
-              <div class="testimonial__dot"></div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer id="contact" class="footer">
-        <div class="footer__block-about">
-          <h4 class="footer__title-1">ArchiWeb</h4>
-          <p class="footer__text">
-            Archiweb is an architectural consultant based in Berlin, Germany. We
-            provide solutions for your architecture and residential design
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <p class="header__nav-logo" id="top">ArchiWeb</p>
+      <div class="header__nav-list">
+        <a class="header__nav-item" href="#top">Home</a>
+        <a class="header__nav-item" href="#projects">Projects</a>
+        <a class="header__nav-item" href="#about">About</a>
+        <a class="header__nav-item" href="#contact">Contact</a>
+        <button class="header__nav-btn"></button>
+      </div>
+    </nav>
+    <div class="header__cover">
+      <div class="header__cover-background"></div>
+      <div class="header__cover-text-wrapper">
+        <div class="header__cover-text">
+          <h1 class="header__cover-title">Best Solution For Your Home</h1>
+          <p class="header__cover-comment">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+            aliquam, purus sit amet
           </p>
-          <div class="social-icons">
-            <a class="footer__social-link" href="#"
-              ><i class="fab fa-facebook"></i
-            ></a>
-            <a class="footer__social-link" href="#"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a class="footer__social-link" href="#"
-              ><i class="fab fa-instagram"></i
-            ></a>
+        </div>
+      </div>
+      <div class="header__cover-switch-wrapper">
+        <div class="header__cover-switch">
+          <button class="header__cover-btn btn-left"></button>
+          <button class="header__cover-btn btn-right"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section></section>
+    <section id="about"></section>
+    <section class="projects" id="projects">
+      <div class="projects__nav-wrapper">
+        <h2 class="projects__title">Our Projects</h2>
+        <nav class="projects__nav">
+          <a class="projects__nav-item" href="#">All</a>
+          <a class="projects__nav-item" href="#">Furniture</a>
+          <a class="projects__nav-item" href="#">Design</a>
+          <a class="projects__nav-item" href="#">House</a>
+        </nav>
+      </div>
+      <div class="flex-row">
+        <div class="flex-item-1">
+          <img src="/assets/images/douglas-sheppard-9ryfg8swrvo-unsplash.jpg" alt="House-1-pic" />
+          <div class="text-description">
+            Our Services Line one<br />Servive line two
           </div>
         </div>
-        <div class="footer__block-articles">
-          <h4 class="footer__title-2">Articles</h4>
-          <div class="footer__block-articles__links">
-          <a class="footer__text" href="#">7 Tips for Kids Friendly Interior Design</a>
-          <a class="footer__text" href="#">Smart Tips for Changing a Room</a>
-          <a class="footer__text" href="#">Eco-friendly design</a>
+        <div class="flex-item-2">
+          <img src="/assets/images/webaliser-_TPTXZd9mOo-unsplash.jpg" alt="House-2-pic" />
+          <div class="text-description">
+            Our Services Line one<br />Servive line two
+          </div>
         </div>
+        <div class="flex-item-3">
+          <img src="/assets/images/brian-babb-XbwHrt87mQ0-unsplash.jpg" alt="House-3-pic" />
+          <div class="text-description">
+            Our Services Line one<br />Servive line two
+          </div>
         </div>
-        <div class="footer__block-links">
-          <h4 class="footer__title-3">Links</h4>
-          <nav class="footer__block-links-nav">
-          <a class="footer__link" href="#">Link 1</a>
-          <a class="footer__link" href="#">Link 2</a>
-          <a class="footer__link" href="#">Link 3</a>
-        </nav>
+      </div>
+      <div class="flex-row">
+        <div class="flex-item-1">
+          <img src="/assets/images/spacejoy-KSfe2Z4REEM-unsplash.jpg" alt="House-4-pic" />
+          <div class="text-description">
+            Our Services Line one<br />Servive line two
+          </div>
         </div>
-        <div class="footer__block-location">
-          <h4 class="footer__title-4">Location</h4>
-          <img
-            src="./assets/images/basemap-image.jpg"
-            alt="Map"
-            class="footer__location-img">
+        <div class="flex-item-2">
+          <img src="/assets/images/ralph-ravi-kayden-JDBVXignFdA-unsplash.jpg" alt="House-5-pic" />
+          <div class="text-description">
+            Our Services Line one<br />Servive line two
+          </div>
         </div>
-      </footer>
-  </body>
+        <div class="flex-item-3">
+          <img src="/assets/images/jonathan-borba-brXCnh_dXWU-unsplash.jpg" alt="House-6-pic" />
+          <div class="text-description">
+            Our Services Line one<br />Servive line two
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="testimonial__container">
+        <div class="testimonial__subtitle subtitle">
+          <h2>Testimonial</h2>
+        </div>
+        <div class="testimonial__row">
+          <div class="testimonial__column">
+            <div class="testimonial__icon">
+              <img src="/assets/images/ellipse-9.svg" alt="icon" />
+            </div>
+            <div class="testimonial__info">
+              <div class="testimonial__full-name">
+                James Passaquindici Arcand
+              </div>
+              <div class="testimonial__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis
+              </div>
+            </div>
+          </div>
+          <div class="testimonial__column">
+            <div class="testimonial__icon">
+              <img src="/assets/images/ellipse-10.svg" alt="icon" />
+            </div>
+            <div class="testimonial__info">
+              <div class="testimonial__full-name">Abram Schleifer</div>
+              <div class="testimonial__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                aliquam, purus sit amet luctus venenatis
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial__dots">
+          <div class="testimonial__dot"></div>
+          <div class="testimonial__dot"></div>
+          <div class="testimonial__dot"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="footer__block-about">
+      <h4 class="footer__title-1">ArchiWeb</h4>
+      <p class="footer__text">
+        Archiweb is an architectural consultant based in Berlin, Germany. We
+        provide solutions for your architecture and residential design
+      </p>
+      <div class="social-icons">
+        <a class="footer__social-link" href="#"><i class="fab fa-facebook"></i></a>
+        <a class="footer__social-link" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="footer__social-link" href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer__block-articles">
+      <h4 class="footer__title-2">Articles</h4>
+      <div class="footer__block-articles__links">
+        <a class="footer__text" href="#">7 Tips for Kids Friendly Interior Design</a>
+        <a class="footer__text" href="#">Smart Tips for Changing a Room</a>
+        <a class="footer__text" href="#">Eco-friendly design</a>
+      </div>
+    </div>
+    <div class="footer__block-links">
+      <h4 class="footer__title-3">Links</h4>
+      <nav class="footer__block-links-nav">
+        <a class="footer__link" href="#">Link 1</a>
+        <a class="footer__link" href="#">Link 2</a>
+        <a class="footer__link" href="#">Link 3</a>
+      </nav>
+    </div>
+    <div class="footer__block-location">
+      <h4 class="footer__title-4">Location</h4>
+      <img src="./assets/images/basemap-image.jpg" alt="Map" class="footer__location-img">
+    </div>
+  </footer>
+</body>
+
 </html>
