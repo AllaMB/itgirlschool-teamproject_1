@@ -208,16 +208,14 @@ h6 {
 /* --------------------------Section about us-----------------------------*/
 .about {
   display: flex;
+  gap: 104px;
   margin: 76px 64px 95px 100px;
-}
-.about__column {
-  margin-left: 85px;
-  max-width: 456px;
 }
 .about__title {
   margin-bottom: 27px;
 }
 .about__discription {
+  width: 456px;
   margin-bottom: 36px;
   font-family: "Playfair Display", serif;
   font-size: 31px;
@@ -328,36 +326,29 @@ h6 {
   max-width: 86.11vw;
   margin: 0 auto;
 }
-
-.testimonial__row {
+.testimonial__container .testimonial__row {
   display: flex;
   margin-top: 4.875rem;
 }
-
-.testimonial__column {
+.testimonial__container .testimonial__column {
   flex: 0 0 50%;
   display: flex;
 }
-
-.testimonial__info {
+.testimonial__container .testimonial__info {
   display: flex;
   flex-direction: column;
 }
-
-.testimonial__info:first-child {
+.testimonial__container .testimonial__info:first-child {
   margin-left: 1.8125rem;
 }
-
-.testimonial__info:last-child {
+.testimonial__container .testimonial__info:last-child {
   margin-left: 1.3125rem;
 }
-
-.testimonial__subtitle {
+.testimonial__container .testimonial__subtitle {
   text-align: center;
   color: #000000;
 }
-
-.testimonial__full-name {
+.testimonial__container .testimonial__full-name {
   font-family: "Playfair Display", serif;
   font-size: 28px;
   line-height: 33px;
@@ -365,32 +356,28 @@ h6 {
   font-weight: bold;
   margin-bottom: 16px;
 }
-
-.testimonial__text {
+.testimonial__container .testimonial__text {
   font-family: "Playfair Display", serif;
   font-size: 17px;
   line-height: 20px;
   color: #2F2E2E;
   width: 19.1875rem;
 }
-
-.testimonial__dots {
+.testimonial__container .testimonial__dots {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 5.5rem;
   padding-bottom: 4.125rem;
 }
-
-.testimonial__dot {
+.testimonial__container .testimonial__dot {
   background-color: #E9E9E9;
   width: 12px;
   height: 12px;
   border-radius: 50%;
   margin-left: 1.25rem;
 }
-
-.testimonial__dot:first-child {
+.testimonial__container .testimonial__dot:first-child {
   background-color: #C4C4C4;
   margin-left: 0;
 }
