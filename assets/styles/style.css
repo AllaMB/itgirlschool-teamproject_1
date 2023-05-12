@@ -208,28 +208,18 @@ h6 {
 /* --------------------------Section about us-----------------------------*/
 .about {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 104px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 76px 64px 95px 100px;
+}
+.about__column {
+  margin-left: 85px;
+  max-width: 456px;
 }
 .about__title {
-  width: 215px;
-  height: 68px;
-  left: 922px;
-  top: 1452px;
-  font-family: "Playfair Display";
-  font-size: 51px;
-  line-height: 60px;
-  color: #2F2E2E;
+  margin-bottom: 27px;
 }
 .about__discription {
-  width: 456px;
-  height: 241px;
-  left: 920px;
-  top: 1547px;
-  font-family: "Playfair Display";
+  margin-bottom: 36px;
+  font-family: "Playfair Display", serif;
   font-size: 31px;
   line-height: 36px;
   color: #2F2E2E;
