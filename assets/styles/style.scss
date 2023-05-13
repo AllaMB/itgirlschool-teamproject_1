@@ -127,7 +127,7 @@
 }
 
 /* --------------------------Section our service-----------------------------*/
-#service-container {
+.service-container {
   display: flex;
   flex-direction: column;
   background-color: rgba(37, 77, 77, 0.2);
@@ -136,16 +136,9 @@
 }
 
 .service-title {
-  height: 68px;
-  font-family: "Playfair Display";
-  font-size: 51px;
-  line-height: 60px;
   text-align: center;
-  /*font-size: 24px;*/
-  font-weight: bold;
   padding: 1.5%;
   margin-bottom: 90px;
-  color: #2F2E2E;
 }
 
 .service {
@@ -158,36 +151,43 @@
 
   &__planning {
     display: grid;
+    justify-items: center;
     grid-area: p;
   }
 
   &__interior {
     display: grid;
+    justify-items: center;
     grid-area: i;
   }
 
   &__exterior {
     display: grid;
+    justify-items: center;
     grid-area: e;
   }
 
   &__text {
-    text-align: center;
-    color: #2F2E2E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
     width: 158px;
     height: 87px;
   }
 
   &__textstyle {
-    width: 117px;
-    height: 36px;
-    left: 199px;
-    top: 1159px;
     font-family: "Playfair Display";
     font-size: 27px;
+    font-weight: 800;
     line-height: 32px;
     text-align: center;
     color: #2F2E2E;
+  }
+
+  &__comment{
+    text-align: center;
+    line-height: 19px;
   }
 }
 
