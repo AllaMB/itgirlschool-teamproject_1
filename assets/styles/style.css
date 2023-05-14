@@ -151,13 +151,13 @@ h6 {
   flex-direction: column;
   background-color: rgba(37, 77, 77, 0.2);
   margin-bottom: 95px;
-  height: 504px;
+  height: 400px;
 }
 
 .service-title {
   text-align: center;
-  padding: 1.5%;
-  margin-bottom: 90px;
+  padding: 1.5% 1.5% 0 1.5%;
+  margin-bottom: 45px;
 }
 
 .service {
@@ -208,7 +208,10 @@ h6 {
 .about {
   display: flex;
   gap: 104px;
-  margin: 76px 64px 95px 100px;
+  margin: 76px 64px 40px 100px;
+}
+.about__column {
+  margin-top: 80px;
 }
 .about__title {
   margin-bottom: 27px;
@@ -227,7 +230,6 @@ h6 {
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  /* identical to box height */
   color: #2F2E2E;
 }
 
